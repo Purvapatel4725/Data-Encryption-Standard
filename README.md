@@ -12,7 +12,7 @@ This repository contains a Python implementation of the **Data Encryption Standa
 ## Installation
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/your-username/DES-Encryption-Utility.git
+    git clone https://github.com/Purvapatel4725/Data-Encryption-Standard.git
     cd Data-Encryption-Standard
     ```
 
