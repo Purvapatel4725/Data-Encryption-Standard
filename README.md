@@ -26,7 +26,7 @@ This repository contains a Python implementation of the **Data Encryption Standa
 ### Encryption
 To encrypt a file, run:
 ```bash
-python des_utility.py
+python DES.py
 ```
 You will be prompted to:
 - Choose the operation: Encryption or Decryption
@@ -37,14 +37,14 @@ You will be prompted to:
 ### Decryption
 To decrypt a file, run the same command:
 ```bash
-python des_utility.py
+python DES.py
 ```
 This time, choose the decryption option, and the rest of the process follows similarly.
 
 ## Options
 ### Key Formats
-- **Hexadecimal (16 characters)**: A hexadecimal string that represents the 64-bit key. Example: `A1B2C3D4E5F6G789`
-- **Decimal (20 digits)**: A 64-bit decimal key with a maximum of 20 digits. Example: `12345678901234567890`
+- **Hexadecimal (16 characters)**: A hexadecimal string that represents the 64-bit key. Example: `F0EDCBA987654321`
+- **Decimal (20 digits)**: A 64-bit decimal key with a maximum of 20 digits. Example: `17360756067564602145`
 
 ### File Input and Output
 The script will list all the files available in the current directory. You can either select a file by its number or manually enter the file name.
@@ -67,9 +67,9 @@ The tool includes several helper functions to handle various parts of the DES pr
 ## Example
 Here is an example workflow for using the tool:
 
-1. You have a plaintext file named `message.txt` and a 64-bit hexadecimal key `A1B2C3D4E5F6A7B8`.
+1. You have a plaintext file named `message.txt` and a 64-bit hexadecimal key `F0EDCBA987654321`.
 2. Run the script and select "Encrypt" as the operation.
-3. Enter the key format as `Hexadecimal`, and provide the key `A1B2C3D4E5F6A7B8`.
+3. Enter the key format as `Hexadecimal`, and provide the key `F0EDCBA987654321`.
 4. Choose the input file as `message.txt` and provide an output file name such as `cipher.txt`.
 5. The file will be encrypted, and the result will be saved in `cipher.txt`.
 
@@ -80,9 +80,7 @@ To decrypt:
 
 The decrypted file should match the original plaintext.
 
-## License
-This project is licensed under the MIT License. You are free to use, modify, and distribute this code, but the author holds no responsibility for illegal or unethical usage.
+## Author
+This project is developed by `Purva Patel`.
 
----
 
-Feel free to adjust the license section if you prefer a different licensing model! Let me know if you need more specific details added.
